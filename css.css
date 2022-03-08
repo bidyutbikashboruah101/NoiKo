@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+span{
+    color: green;
+}
+
+p span{                     /* document tree selector*/
+    color: red;
+}
+
+.name{
+    color: blue;
+}
+
+p{
+    color: burlywood /*!important*/;    /* specificity */
+    background-color: inherit;
+}
+
+p:hover{                      /* pseudo classes*/
+    color: orangered;
+}
+
+h2::first-letter{               /* pseudo element*/
+    color: blueviolet;
+}
+
+h2::first-line{
+    color: rgb(99, 71, 126);
+}
