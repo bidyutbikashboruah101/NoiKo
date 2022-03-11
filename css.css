@@ -30,3 +30,25 @@ h2::first-letter{               /* pseudo element*/
 h2::first-line{
     color: rgb(99, 71, 126);
 }
+
+h2{
+    background-color: rgb(110, 240, 110);
+    width: 50%;
+}
+
+.nadw{
+    background-color: aquamarine;
+    width: 400px;
+    height: 200px;
+}
+
+.lorem{
+    background-color: black;
+    width: calc(80%-100px);
+    height: 50%;
+}
+
+.ffff{
+    background-color: aqua;
+    
+}
