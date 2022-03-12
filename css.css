@@ -15,7 +15,7 @@ p span{                     /* document tree selector*/
 }
 
 p{
-    color: burlywood /*!important*/;    /* specificity */
+    color: rgb(105, 7, 100) /*!important*/;    /* specificity */
     background-color: inherit;
 }
 
@@ -52,3 +52,13 @@ h2{
     background-color: aqua;
     
 }
+
+.fire{
+    text-transform: capitalize;
+    text-decoration: blink;
+}
+
+.fire:hover{
+    cursor: pointer;
+}
+
